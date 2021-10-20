@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     ...webpack.plugins,
     new ModuleFederationPlugin({
-      name: "account",
+      name: "header",
       filename: "remoteEntry.js",
       exposes: {
         "./main": "./src/app",

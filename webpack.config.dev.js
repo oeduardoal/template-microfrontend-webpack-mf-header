@@ -3,15 +3,15 @@ const webpack = require("./webpack.config");
 
 const env = process.env.ENV || "dev";
 
-const { account } = urls[env];
+const { header } = urls[env];
 
 /** @type { import('webpack').Configuration } */
 module.exports = {
   ...webpack,
   output: {
-    publicPath: account.url,
+    publicPath: header.url,
   },
   devServer: {
-    port: account.port,
+    port: header.port,
   },
 };

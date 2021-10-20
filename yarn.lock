@@ -1248,10 +1248,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@oeduardoal/microfrontend-config@^1.x.x":
-  version "1.0.3"
-  resolved "https://npm.pkg.github.com/download/@oeduardoal/microfrontend-config/1.0.3/f1112f5ac91ab6fd53a614408afb0b973a669cbb548e577229f9d85328976341#218fd7ebb3c8e2ba85c998c9b2522d5036cca8e2"
-  integrity sha512-lZbAi1vQkGOVMLBH1tRe466bxrV/JA/blu83xKoS6gqkvo/D/2YqtIB5/hliQjjIKJg181061mjsQHkoSkGQqQ==
+"@oeduardoal/microfrontend-config@^1.0.4":
+  version "1.0.4"
+  resolved "https://npm.pkg.github.com/download/@oeduardoal/microfrontend-config/1.0.4/f4e4ade1bdae7e3c5ef565eb295820fdfb05f0d7729fb849a8ef9dd97c9b49bd#8612c40c5f3707f6bb9f5b1d7ca74b9331ce93af"
+  integrity sha512-+UDGCyW0Ff4yP677WdBuCYkfWTgBrs1uZ99LGvkbIVSHMDm8S9zADTS0mFOBxmvC9siehA2zJ/gvu6DlQ2N6ww==
   dependencies:
     "@babel/cli" "^7.15.7"
     "@babel/core" "^7.15.8"

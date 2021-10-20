@@ -1,8 +1,12 @@
 import React from "react";
-import { Heading } from "@grupoboticario/flora-react-heading";
+import { Box } from "@grupoboticario/flora-react-box";
 
-const App: React.FC = ({ name = "Not logged" }) => {
-  return <Heading>Account Store {name}</Heading>;
+const App: React.FC = ({ children }) => {
+  return (
+    <Box as="header">
+      This is a header <br /> {children}
+    </Box>
+  );
 };
 
 export default App;
