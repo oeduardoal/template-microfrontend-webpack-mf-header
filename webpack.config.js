@@ -7,6 +7,7 @@ module.exports = {
   ...webpack,
   output: {
     publicPath: "auto",
+    chunkFilename: "[id].[contenthash].js",
   },
   plugins: [
     ...webpack.plugins,
@@ -14,7 +15,7 @@ module.exports = {
       name: "header",
       filename: "remoteEntry.js",
       exposes: {
-        "./main": "./src/app",
+        "./Header": "./src/header",
       },
       shared: deps,
     }),

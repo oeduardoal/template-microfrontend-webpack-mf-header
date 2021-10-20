@@ -9,6 +9,7 @@ const { header } = urls[env];
 module.exports = {
   ...webpack,
   output: {
+    ...webpack.output,
     publicPath: header.url,
   },
   devServer: {
