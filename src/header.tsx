@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@grupoboticario/flora-react-box";
-import { Heading } from "@grupoboticario/flora-react-heading";
+import { Container } from "@grupoboticario/flora-react-container";
 
 const Header: React.FC = ({ children }) => {
   return (
@@ -11,11 +11,15 @@ const Header: React.FC = ({ children }) => {
         height: 80,
         color: "white",
         display: "flex",
-        justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <Heading level={4}>This is a header -- {children}</Heading>
+      <Container
+        size={{ "@initial": "large" }}
+        css={{ display: "flex", justifyContent: "flex-end" }}
+      >
+        {children}
+      </Container>
     </Box>
   );
 };
