@@ -1,6 +1,5 @@
 import React from "react";
-import { Box } from "@grupoboticario/flora-react-box";
-import { Container } from "@grupoboticario/flora-react-container";
+import { Box, Container } from "@grupoboticario/flora-react";
 
 const Header: React.FC = ({ children }) => {
   return (
