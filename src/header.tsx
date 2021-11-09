@@ -13,12 +13,7 @@ const Header: React.FC = ({ children }) => {
         alignItems: "center",
       }}
     >
-      <Container
-        size={{ "@initial": "large" }}
-        css={{ display: "flex", justifyContent: "flex-end" }}
-      >
-        {children}
-      </Container>
+      <Container size="large">{children}</Container>
     </Box>
   );
 };
